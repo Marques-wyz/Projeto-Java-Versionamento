@@ -180,7 +180,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
+        //Lista todos os itens cadastros no banco de dados/
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new listagemVIEW().setVisible(true);
