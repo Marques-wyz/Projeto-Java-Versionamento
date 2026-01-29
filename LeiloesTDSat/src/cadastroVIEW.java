@@ -188,6 +188,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                //Tela inicial do sistema definida como CadastroVIEW
                 new cadastroVIEW().setVisible(true);
             }
         });
