@@ -138,7 +138,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_cadastroNomeActionPerformed
-
+     //Realiza o cadastro do item no banco de dados
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
         ProdutosDTO produto = new ProdutosDTO();
         String nome = cadastroNome.getText();
